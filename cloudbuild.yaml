@@ -32,4 +32,4 @@ artifacts:
     path: '/workspace/target/cloudbuild-test-maven-1.0-SNAPSHOT.jar'
     artifactId: 'cloudbuild-test-maven'
     groupId: 'com.mycompany.app'
-    version: '1.0'
+    version: '1.0-SNAPSHOT'
