@@ -9,17 +9,17 @@
   <url>https://maven.apache.org</url>
     <distributionManagement>
     <snapshotRepository>
-      <id>remote-repository</id>
+      <id>artifact-registry</id>
       <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/quickstart-java-repo</url>
     </snapshotRepository>
     <repository>
-      <id>remote-repository</id>
+      <id>artifact-registry</id>
       <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/quickstart-java-repo</url>
     </repository>
   </distributionManagement>
   <repositories>
     <repository>
-      <id>remote-repository</id>
+      <id>artifact-registry</id>
       <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/quickstart-java-repo</url>
       <releases>
         <enabled>true</enabled>
