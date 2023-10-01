@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>cloudbuild-test-maven</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>cloudbuild-test-maven</name>
   <url>https://maven.apache.org</url>
     <distributionManagement>
