@@ -11,15 +11,14 @@ public class AppTest
 {
     @Test
     public void testAppConstructor() {
-        App app1 = new App();
-        App app2 = new App();
-        assertEquals(app1.getMessage(), app2.getMessage());
+        SpecialCalculator app1 = new SpecialCalculator();
+        SpecialCalculator app2 = new SpecialCalculator();
     }
 
     @Test
     public void testAppMessage()
     {
-        App app = new App();
-        assertEquals("Hello World!", app.getMessage());
+        SpecialCalculator app = new SpecialCalculator();
+        assertEquals(2, app.sum(1, 1));
     }
 }

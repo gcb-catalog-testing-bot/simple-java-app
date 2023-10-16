@@ -1,3 +1,5 @@
+package com.mycompany.app;
+
 public class SpecialCalculator {
 	public double sum(double x, double y) {
 		return x + y;
@@ -21,3 +23,4 @@ public class SpecialCalculator {
 		}
 	}
 }
+

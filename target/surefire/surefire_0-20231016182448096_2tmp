@@ -1,0 +1,6 @@
+#surefire_0
+#Mon Oct 16 18:24:48 EDT 2023
+altReleaseDeploymentRepository=artifact-registry\:\:https\://us-docker.pkg.dev/gcb-catalog-experiment/test-java-repo
+basedir=/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app
+localRepository=/Users/yawenluo/.m2/repository
+snapshot=true

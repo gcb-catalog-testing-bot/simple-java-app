@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.app.AppTest" time="0.052" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.app.AppTest" time="0.063" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/test-classes:/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/classes:/Users/yawenluo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yawenluo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yawenluo/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yawenluo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/test-classes:/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/classes:/Users/yawenluo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yawenluo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yawenluo/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yawenluo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/surefire/surefirebooter-20230823230021126_3.jar /Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/surefire 2023-08-23T23-00-21_002-jvmRun1 surefire-20230823230021126_1tmp surefire_0-20230823230021126_2tmp"/>
+    <property name="sun.java.command" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/surefire/surefirebooter-20231016182448096_3.jar /Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/surefire 2023-10-16T18-24-47_956-jvmRun1 surefire-20231016182448096_1tmp surefire_0-20231016182448096_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/test-classes:/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/classes:/Users/yawenluo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yawenluo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yawenluo/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yawenluo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/test-classes:/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/classes:/Users/yawenluo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yawenluo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yawenluo/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yawenluo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/yawenluo"/>
     <property name="user.language" value="en"/>
@@ -23,20 +23,22 @@
     <property name="java.version.date" value="2023-04-18"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app"/>
+    <property name="basedir" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="altReleaseDeploymentRepository" value="artifact-registry::https://us-docker.pkg.dev/gcb-catalog-experiment/test-java-repo"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app/target/surefire/surefirebooter-20230823230021126_3.jar"/>
+    <property name="snapshot" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app/target/surefire/surefirebooter-20231016182448096_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1"/>
     <property name="user.name" value="yawenluo"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="13.5"/>
+    <property name="os.version" value="13.6"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -45,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/53/4tb5t8fj1yv8bvnrvh9ljs6000jw96/T/"/>
     <property name="java.version" value="20.0.1"/>
-    <property name="user.dir" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-maven-app"/>
+    <property name="user.dir" value="/Users/yawenluo/Desktop/testfolder/local_dev/simple-java-app"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -59,5 +61,5 @@
     <property name="java.class.version" value="64.0"/>
   </properties>
   <testcase name="testAppConstructor" classname="com.mycompany.app.AppTest" time="0.03"/>
-  <testcase name="testAppMessage" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testAppMessage" classname="com.mycompany.app.AppTest" time="0.004"/>
 </testsuite>
